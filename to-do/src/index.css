@@ -1,4 +1,12 @@
-/* ./src/index.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.home {
+  display: flex;
+  background-color:darkslategray;
+  font-family: Courier, monospace;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  font-family: Courier New, monospace;
+  background-color: blanchedalmond;
+}
