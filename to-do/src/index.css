@@ -1,6 +1,6 @@
 .home {
   display: flex;
-  background-color:darkslategray;
+  background-color:rgb(67, 95, 84);
   font-family: Courier, monospace;
 }
 
@@ -9,4 +9,7 @@
   justify-content: center;
   font-family: Courier New, monospace;
   background-color: blanchedalmond;
+  width: 20rem;
+  padding: 2rem;
+  margin: 2rem;
 }
