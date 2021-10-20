@@ -1,15 +1,30 @@
 .home {
   display: flex;
-  background-color:rgb(67, 95, 84);
-  font-family: Courier, monospace;
+  justify-content: center;
+  
+}
+body {
+    background-color:rgb(67, 95, 84);
 }
 
 .todo {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: Courier New, monospace;
   background-color: blanchedalmond;
-  width: 20rem;
+  width: 25rem;
   padding: 2rem;
   margin: 2rem;
+  flex-direction: column;
+}
+.h3-todo{
+    text-align: center;
+    border-bottom: solid black .05rem;
+    width: 20rem;
+}
+.to-do-form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
